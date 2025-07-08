@@ -1,0 +1,10 @@
+git init
+
+git status 
+
+git add . (for putting all files in staged)
+git add text.py (for one file)
+
+git commit -m "message"
+
+git restore 
