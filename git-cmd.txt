@@ -9,8 +9,12 @@ git commit -m "message"
 
 git restore 
 
+<<<<<<< HEAD
 git remote set-url origin
 
 git push -u origin main
 
 git status
+=======
+this is new changes 
+>>>>>>> 1e5af8182019d81658afec65a74acfd811fc2886
