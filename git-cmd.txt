@@ -8,3 +8,5 @@ git add text.py (for one file)
 git commit -m "message"
 
 git restore 
+
+git remote set-url origin: 
