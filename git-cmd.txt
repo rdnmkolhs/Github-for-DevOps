@@ -9,3 +9,10 @@ git commit -m "message"
 
 git restore 
 
+git remote set-url origin
+
+git push -u origin main
+
+git status
+
+git remote -v
