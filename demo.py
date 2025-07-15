@@ -4,5 +4,5 @@ def my_function():
     return a
 
 
-print(5 + 3)
+print(5+3)
 my_function()
