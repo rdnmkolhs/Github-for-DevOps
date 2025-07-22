@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Running flake8 on staged Python files..."
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+flake8 $files
+
+if git grep -q "password\|secret_key\|API_KEY" $(git diff --cached --name-only); then
+  echo "Error: Sensitive information detected in staged files."
+  exit 1
+fi
+
+ 
