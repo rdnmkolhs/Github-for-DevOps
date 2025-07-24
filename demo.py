@@ -1,4 +1,4 @@
-def add_function():
+def ADD_FUNCTION():
     """
     This function initializes two variables and returns their sum.
     """
@@ -7,5 +7,5 @@ def add_function():
     return num_one + num_two
 
 
-num_added = add_function()
-print(num_added)
+NUM_ADD= ADD_FUNCTION()
+print(NUM_ADD)
