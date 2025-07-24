@@ -7,5 +7,5 @@ def MY_FUNCTION():
     return first_name + last_name
 
 
-FULL_NAME= MY_FUNCTION()
+FULL_NAME = MY_FUNCTION()
 print(FULL_NAME)

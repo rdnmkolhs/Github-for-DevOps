@@ -7,5 +7,5 @@ def ADD_FUNCTION():
     return num_one + num_two
 
 
-NUM_ADD= ADD_FUNCTION()
+NUM_ADD = ADD_FUNCTION()
 print(NUM_ADD)
