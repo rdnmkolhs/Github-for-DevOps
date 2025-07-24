@@ -17,4 +17,3 @@ def add_numbers():
 
 result = add_numbers()
 print(result)
-
