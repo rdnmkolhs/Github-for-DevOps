@@ -2,10 +2,10 @@ def my_function():
     """
     This function initializes two variables and returns their sum.
     """
-    A = 5
-    B = 10
-    return A + B
+    first_name = 5
+    last_name = 10
+    return first_name + last_name
 
 
-C = my_function()
-print(C)
+full_name = my_function()
+print(full_name)
