@@ -1,11 +1,17 @@
-def MY_FUNCTION():
-    """
-    This function initializes two variables and returns their sum.
-    """
-    first_name = 5
-    last_name = 10
-    return first_name + last_name
+"""
+This module demonstrates a simple function to add two integers.
+"""
 
+def add_numbers():
+    """
+    Initializes two integer variables and returns their sum.
+    
+    Returns:
+        int: Sum of two integers.
+    """
+    a = 5
+    b = 10
+    return a + b
 
-FULL_NAME = MY_FUNCTION()
-print(FULL_NAME)
+result = add_numbers()
+print(result)
