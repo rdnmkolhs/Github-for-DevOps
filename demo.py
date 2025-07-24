@@ -1,8 +1,11 @@
-def my_function():
+def add_function():
+    """
+    This function initializes two variables and returns their sum.
+    """
+    num_one = 5
+    num_two = 10
+    return num_one + num_two
 
-    A = 5
-    return A
 
-
-print(5+3)
-my_function()
+num_added = add_function()
+print(num_added)
