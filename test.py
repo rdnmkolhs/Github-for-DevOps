@@ -12,7 +12,8 @@ def add_numbers():
     """
     a = 5
     b = 10
-    return a + b
+    c = a + b  # This line was added in the recent edit
+    return c
 
 
 result = add_numbers()
